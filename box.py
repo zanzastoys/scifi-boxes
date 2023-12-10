@@ -18,9 +18,9 @@ import math
 
 # base dimensions for the main box, not including
 # the side panels and reinforcing rings
-height = 30.0
-width = 40.0
-depth = 25.0
+height = 25.0
+width = 50.0
+depth = 50.0
 
 # change this to make the box more or less round
 baseFillet = 5
@@ -267,7 +267,7 @@ show_object(bot)
 
 topFinal = top()
 # topFinal = topFinal.translate([0, 0, height - topHeight])
-topFinal = topFinal.translate([width + 10, 0, 0])
+# topFinal = topFinal.translate([width + 10, 0, 0])
 show_object(topFinal)
 
 # export the files as STLs
